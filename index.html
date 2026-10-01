@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang cá nhân - Phạm Tiến Thành - Lab 05</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .profile-info {
+            font-size: 1.1em;
+            color: #2c3e50;
+        }
+        .content-section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .pdf-container {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .pdf-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .infographic-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 5px;
+        }
+        .video-container {
+            position: relative;
+            max-width: 360px;
+            height: 640px;
+            margin: 0 auto;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+        .video-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 10px;
+            border-top: 1px solid #ccc;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Giới thiệu thông tin cá nhân -->
+    <header>
+        <h1>TRANG GIỚI THIỆU THÔNG TIN CÁ NHÂN</h1>
+        <div class="profile-info">
+            <p><strong>Họ và tên:</strong> Phạm Tiến Thành</p>
+            <p><strong>Mã số sinh viên (MSSV):</strong> b2605465</p>
+            <p><strong>Lớp học phần:</strong> 26D2A2</p>
+        </div>
+    </header>
+
+    <!-- Sản phẩm 1: File PDF (Nhiệm vụ 1.2) -->
+    <div class="content-section">
+        <h2>1. Tài liệu PDF (Nhiệm vụ 1.2)</h2>
+        <p>Ứng dụng công nghệ số trong học tập:</p>
+        <div class="pdf-container">
+            <iframe src="Lab05_Ex1.2.pdf" title="Tài liệu PDF Ứng dụng công nghệ số"></iframe>
+        </div>
+    </div>
+
+    <!-- Sản phẩm 2: File PNG (Nhiệm vụ 2.1) -->
+    <div class="content-section">
+        <h2>2. Infographic (Nhiệm vụ 2.1)</h2>
+        <p>Hình ảnh Infographic tổng quan lợi ích của công nghệ số:</p>
+        <div class="infographic-container">
+            <img src="Lab05_Ex2.1 - Copy.png" alt="Infographic Lợi ích công nghệ số trong học tập">
+        </div>
+    </div>
+
+    <!-- Sản phẩm 3: Video YouTube -->
+    <div class="content-section">
+        <h2>3. Video Minh Họa (YouTube Shorts)</h2>
+        <p>Video ngắn giới thiệu nội dung học tập:</p>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/cNshbv0yng4" 
+                    title="YouTube video player" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Phạm Tiến Thành - MSSV: b2605465 - Lớp: 26D2A2</p>
+        <p><i>Trang web được phát triển với sự hỗ trợ của <b>GitHub Copilot</b>.</i></p>
+    </footer>
+
+</body>
+</html>
